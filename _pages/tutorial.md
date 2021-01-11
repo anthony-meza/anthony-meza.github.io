@@ -1,3 +1,14 @@
+---
+layout: archive
+title: "Tutorials"
+permalink: /tutorial/
+author_profile: true
+redirect_from:
+  - /codestuff
+---
+
+{% include base_path %}
+
 Installing some of these languages, packages, etc. has given me quite some trouble in the past. This page has been created to document these annoyances. 
 # Julia 
 ## Installing Julia 
