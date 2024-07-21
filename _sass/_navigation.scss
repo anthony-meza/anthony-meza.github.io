@@ -197,7 +197,7 @@
     border: 0;
     outline: none;
     background-color: $primary-color;
-    color: #fff;
+    color: $background-color;
     cursor: pointer;
     z-index: 100;
   }
@@ -259,7 +259,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
+    background: $background-color;
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
@@ -294,7 +294,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      border-color: $background-color;
       display: block;
       z-index: 1;
     }
