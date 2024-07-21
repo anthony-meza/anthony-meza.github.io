@@ -6,4 +6,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Short bio about research interests, background and past work
+Short bio about research interests, background and past work. Maybe add a spotify link here 
