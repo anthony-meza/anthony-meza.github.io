@@ -16,8 +16,7 @@ url                      : https://anthony-meza.github.io # the base hostname & 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "anthony-meza.github.io"
 
-header:
-  image: "Llamas.png"
+
   
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -280,7 +279,9 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
+header:
+  image: "Llamas.png"
+  
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
