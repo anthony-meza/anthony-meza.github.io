@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a physical oceanographer who utilizes models and observations to study abyssal ocean circulation. Born to two Peruvian immigrants and raised in Southern California, as a child I never expected to go to graduate school. However, my strong interest in mathematics, programming and later physics led me to pursue higher education where I hoped to learn how to use those skills to study how humanity and nature alter Earth's climate. 
+I am a physical oceanographer who utilizes models and observations to study abyssal ocean circulation. Born to two Peruvian immigrants and raised in Southern California, as a child I never expected to go to graduate school. However, my strong interest in mathematics, programming and later physics led me to pursue higher education where I hoped to learn how to use those skills to study how Earth's climate has changed over the recent decades. 
