@@ -28,8 +28,8 @@ author:
   avatar           : "headshot.jpeg"
   name             : "Anthony Meza"
   pronouns         : "he/him"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "First-gen college student working towards a PhD in Physical Oceanography at MIT and Woods Hole Oceanographic Institution"
+  location         : #"Earth"
   employer         : "Massachusetts Institute of Technology / Woods Hole Oceanographic Institution"
   uri              : # URL
   email            : "ameza@mit.edu" 
