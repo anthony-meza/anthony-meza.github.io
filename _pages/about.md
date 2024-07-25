@@ -1,9 +1,10 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "A little about me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Short bio about research interests, background and past work. Maybe add a spotify link here 
+
+I am a physical oceanographer who utilizes models and observations to study abyssal ocean circulation. Born to two Peruvian immigrants and raised in Southern California, as a child I never expected to go to graduate school. However, my strong interest in mathematics, programming and later physics led me to pursue higher education where I hoped to learn how to use those skills to study how humanity and nature alter Earth's climate. 
