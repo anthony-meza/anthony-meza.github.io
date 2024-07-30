@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/Llamas.png
+  overlay_image: "/assets/images/Llamas.png"
   #caption: "Iceberg in the Scotia Sea. 2017 by Stephen M. Griffies"
 
 ---
