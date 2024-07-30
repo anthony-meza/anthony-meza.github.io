@@ -1,6 +1,5 @@
 ---
 permalink: /
-layout: single 
 title: "A little about me"
 author_profile: true
 author: Anthony Meza
