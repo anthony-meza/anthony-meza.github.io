@@ -1,7 +1,10 @@
 ---
 permalink: /
+layout: single 
 title: "A little about me"
 author_profile: true
+author: Anthony Meza
+excerpt: "Uncovering how the ocean works"
 redirect_from: 
   - /about/
   - /about.html
