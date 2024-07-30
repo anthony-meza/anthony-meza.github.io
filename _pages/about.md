@@ -5,13 +5,12 @@ title: "A little about me"
 author_profile: true
 author: Anthony Meza
 excerpt: "Uncovering how the ocean works"
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+
 redirect_from: 
   - /about/
   - /about.html
-header:
-  overlay_color: "#000"
-  overlay_image: "/assets/images/Llamas.png"
-  #caption: "Iceberg in the Scotia Sea. 2017 by Stephen M. Griffies"
 
 ---
 
