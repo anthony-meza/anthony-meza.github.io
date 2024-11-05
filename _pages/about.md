@@ -1,10 +1,8 @@
 ---
 permalink: /
-title: "A little about me"
 author_profile: true
 author: Anthony Meza
 classes: wide
-excerpt: "Uncovering how the ocean works"
 header:
   overlay_image: "../images/Llamas.jpg"
 
