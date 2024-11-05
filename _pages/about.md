@@ -5,7 +5,7 @@ author_profile: true
 author: Anthony Meza
 excerpt: "Uncovering how the ocean works"
 header:
-  image: "/images/image-alignment-580x300.jpg"
+  image: "/images/Llamas.jpg"
 
 redirect_from: 
   - /about/
