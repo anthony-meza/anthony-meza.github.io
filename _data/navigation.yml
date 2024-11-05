@@ -4,17 +4,17 @@ main:
   - title: "Research"
     url: /research/    
 
-  - title: "Tutorials"
-    url: /tutorials/    
+  # - title: "Tutorials"
+  #   url: /tutorials/    
     
-  - title: "Outreach"
-    url: /outreach/    
+  # - title: "Outreach"
+  #   url: /outreach/    
         
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
