@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: " "
+excerpt: " "
 author_profile: true
 classes: wide
 header:
