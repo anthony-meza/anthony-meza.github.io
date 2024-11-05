@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: " "
 author_profile: true
 classes: wide
 header:
