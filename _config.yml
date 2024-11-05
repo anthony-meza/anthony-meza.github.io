@@ -279,8 +279,8 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-header:
-  image: "Llamas.png"
+# header:
+#   image: "Llamas.png"
   
 # Outputting
 permalink: /:categories/:title/
