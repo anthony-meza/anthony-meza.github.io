@@ -6,7 +6,7 @@ author: Anthony Meza
 classes: wide
 excerpt: "Uncovering how the ocean works"
 header:
-  image: "../images/Llamas.jpg"
+  overlay_image: "../images/Llamas.jpg"
 
 redirect_from: 
   - /about/
