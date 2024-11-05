@@ -1,7 +1,6 @@
 ---
 permalink: /
 author_profile: true
-author: Anthony Meza
 classes: wide
 header:
   overlay_image: "../images/Llamas.jpg"
