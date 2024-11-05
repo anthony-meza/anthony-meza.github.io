@@ -5,6 +5,7 @@
 instructions to add a header image can be found here: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers
 Academic Pages is a Github Pages template for academic websites.
 
+based off of https://github.com/cohenjt/cohenjt.github.io/blob/4d3960a26841bbebac620dbf8b7c1619ace0c6a0/index.md?plain=1#L8
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
