@@ -4,7 +4,7 @@ title: " "
 author_profile: true
 classes: wide
 header:
-  overlay_image: "../images/Llamas.jpg"
+  overlay_image: "../images/water_ocean.jpg"
 
 redirect_from: 
   - /about/
