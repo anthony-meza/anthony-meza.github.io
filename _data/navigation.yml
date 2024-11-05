@@ -13,8 +13,11 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
+  # - title: "CV"
+  #   url: /cv/
   - title: "CV"
-    url: /cv/
-    
+    url: /files/Meza_Anthony_CV.pdf
+  - title: "Resume"
+    url: /files/Meza_Resume_2024.pdf
   # - title: "Guide"
   #   url: /markdown/
