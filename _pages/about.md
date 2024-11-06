@@ -21,7 +21,7 @@ Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the
 ## Outreach and Leadership
   - Co-organizer of High Performance Data Analysis In Oceanography Workshop (2024, [workshop repository can be found here](https://github.com/anthony-meza/WHOI-PO-HPC)) 
   - JP ASK Graduate Application Mentor (2021 - Present)
-  - MIT-WHOI Joint Program Student Representative (2022 - 2024)
+  - MIT-WHOI Joint Program Student Representative and Vice President (2022 - 2024)
   - MIT-WHOI Summer Math Refresher Instructor (2023 - 2024)
   - Co-organizer of the Graduate Climate Conference (2023)
 
