@@ -18,6 +18,7 @@ I'm a PhD candidate in the MIT-WHOI Joint Program, studying the physics of the d
 Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine.  
 
 ## Outreach and Leadership
+  - Student Member of the American Meterological Society Committee on Climate Variability and Change (2025 - Present) 
   - Co-organizer of High Performance Data Analysis In Oceanography Workshop (2024, [workshop repository can be found here](https://github.com/anthony-meza/WHOI-PO-HPC)) 
   - JP ASK Graduate Application Mentor (2021 - Present)
   - MIT-WHOI Joint Program Student Representative and Vice President (2022 - 2024)
