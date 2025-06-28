@@ -20,9 +20,9 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
           pip install requests nbconvert jupyter 
           pip install cmocean tqdm
-          pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
 
           wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/gebco_woho.nc
           wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/get_realtime_data.ipynb
