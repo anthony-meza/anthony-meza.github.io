@@ -1,0 +1,41 @@
+name: Generate Temperature Plot from Notebook
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"  # Every 3 hours
+  workflow_dispatch:       # Allow manual runs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libproj-dev proj-data proj-bin libgeos-dev
+          pip install matplotlib xarray cartopy netCDF4 requests nbconvert jupyter 
+          pip install ndbc-api cmocean
+          pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
+
+          wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/gebco_woho.nc
+          wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/get_realtime_data.ipynb
+      - name: Execute notebook
+        run: |
+          jupyter nbconvert --to notebook --execute get_realtime_data.ipynb --inplace
+
+      - name: Commit and push updated plot
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add images/temperature_plot.png
+          git commit -m "Update plot from notebook at $(date -u)" || echo "No changes"
+          git push
