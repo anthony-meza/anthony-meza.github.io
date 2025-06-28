@@ -22,7 +22,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libproj-dev proj-data proj-bin libgeos-dev
-          pip install matplotlib xarray cartopy netCDF4 requests nbconvert jupyter 
+          pip install requests nbconvert jupyter 
           pip install cmocean tqdm
           pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
 
