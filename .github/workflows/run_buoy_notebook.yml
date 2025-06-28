@@ -23,7 +23,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libproj-dev proj-data proj-bin libgeos-dev
           pip install matplotlib xarray cartopy netCDF4 requests nbconvert jupyter 
-          pip install ndbc-api cmocean tqdm
+          pip install cmocean tqdm
           pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
 
           wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/gebco_woho.nc
