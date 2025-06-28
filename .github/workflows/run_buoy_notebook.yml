@@ -16,12 +16,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.10.17"
 
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libproj-dev proj-data proj-bin libgeos-dev
           pip install requests nbconvert jupyter 
           pip install cmocean tqdm
           pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
