@@ -27,5 +27,5 @@ Almost all of the code I write for my work ends up [on my GitHub](https://github
   - MIT-WHOI Summer Math Refresher Instructor (2023 - 2024)
   - Co-organizer of the Graduate Climate Conference (2023)
 
-## Woods Hole Sea Surface Temperature
+#### Woods Hole Sea Surface Temperature
 ![Latest Sea Surface Temperature at Woods Hole](/images/temperature_plot.png){: style="display: block; margin: 2em auto; max-width: 100%; border-radius: 8px;" }
