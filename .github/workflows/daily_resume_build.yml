@@ -4,8 +4,8 @@ name: Daily Resume & CV Build
 on:
   workflow_dispatch:
   schedule:
-    # daily at 04:00 UTC (midnight EDT)
-    - cron: '0 4 * * *'
+    # daily at 04:53 UTC → 11:53 PM EST
+    - cron: '53 4 * * *'
 
 jobs:
   build:
