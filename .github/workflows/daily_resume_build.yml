@@ -1,53 +1,53 @@
-# .github/workflows/daily-resume-build.yml
 name: Daily Resume & CV Build
 
 on:
   workflow_dispatch:
   schedule:
-    # daily at 04:00 UTC (midnight EDT)
+    # Daily at 04:00 UTC (midnight EDT)
     - cron: '0 4 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      # 1) Checkout your Pages site
+      # 1) Check out your Pages site repo
       - name: Check out Pages repo
         uses: actions/checkout@v4
         with:
+          # Keep the GITHUB_TOKEN creds so we can push later
           persist-credentials: true
           ref: master
 
-      # 2) Checkout your resume repo into 'resume/'
-      - name: Check out Meza_CV_Resume
+      # 2) Pull your Meza_CV_Resume repo into `resume/`
+      - name: Check out Meza_CV_Resume (private)
         uses: actions/checkout@v4
         with:
           repository: anthony-meza/Meza_CV_Resume
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RESUME_PAT }}
           path: resume
 
-      # 3) Copy .tex files into paper/
+      # 3) Copy over the .tex files into a build folder
       - name: Gather LaTeX sources
         run: |
           mkdir -p paper
           cp resume/Resume.tex paper/Resume.tex
           cp resume/CV.tex     paper/CV.tex
 
-      # 4) Compile Resume.tex
+      # 4) Compile Resume.tex to PDF
       - name: Compile LaTeX to PDF
         uses: xu-cheng/latex-action@v3
         with:
           root_file: paper/Resume.tex
 
-      # 5) Move outputs into files/
+      # 5) Move the generated PDF and the .tex sources into `files/`
       - name: Publish PDF & sources
         run: |
-          # overwrite existing files/*.pdf & .tex
           mv paper/Resume.pdf   files/Resume.pdf
           cp paper/Resume.tex   files/Resume.tex
           cp paper/CV.tex       files/CV.tex
 
-      # 6) Commit & push only if something changed
+      # 6) Commit & push only if there are changes
       - name: Commit and push updates
         run: |
           git config --global user.name "github-actions"
