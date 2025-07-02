@@ -1,9 +1,10 @@
+# .github/workflows/daily-resume-build.yml
 name: Daily Resume & CV Build
 
 on:
   workflow_dispatch:
   schedule:
-    # Daily at 04:00 UTC (midnight EDT)
+    # daily at 04:00 UTC (midnight EDT)
     - cron: '0 4 * * *'
 
 jobs:
@@ -11,49 +12,52 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Check out your Pages site repo
+      # 1) Check out your Pages repo (so we can commit back to it)
       - name: Check out Pages repo
         uses: actions/checkout@v4
         with:
-          # Keep the GITHUB_TOKEN creds so we can push later
           persist-credentials: true
           ref: master
 
-      # 2) Pull your Meza_CV_Resume repo into `resume/`
-      - name: Check out Meza_CV_Resume (private)
-        uses: actions/checkout@v4
-        with:
-          repository: anthony-meza/Meza_CV_Resume
-          token: ${{ secrets.RESUME_PAT }}
-          path: resume
+      # 2) Install TeX Live and latexmk
+      - name: Install TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-base \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            latexmk
 
-      # 3) Copy over the .tex files into a build folder
+      # 3) Clone the now-public resume repo
+      - name: Clone Meza_CV_Resume
+        run: git clone https://github.com/anthony-meza/Meza_CV_Resume resume
+
+      # 4) Copy .tex sources into a build folder
       - name: Gather LaTeX sources
         run: |
           mkdir -p paper
           cp resume/Resume.tex paper/Resume.tex
           cp resume/CV.tex     paper/CV.tex
 
-      # 4) Compile Resume.tex to PDF
-      - name: Compile LaTeX to PDF
-        uses: xu-cheng/latex-action@v3
-        with:
-          root_file: paper/Resume.tex
+      # 5) Build the PDF with latexmk
+      - name: Compile Resume.tex
+        run: |
+          cd paper
+          latexmk -pdf -interaction=nonstopmode Resume.tex
 
-      # 5) Move the generated PDF and the .tex sources into `files/`
+      # 6) Move the PDF and sources into your files/ folder
       - name: Publish PDF & sources
         run: |
           mv paper/Resume.pdf   files/Resume.pdf
           cp paper/Resume.tex   files/Resume.tex
           cp paper/CV.tex       files/CV.tex
 
-      # 6) Commit & push only if there are changes
+      # 7) Commit & push only if there’s something new
       - name: Commit and push updates
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git remote set-url origin \
-            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add files/Resume.pdf files/Resume.tex files/CV.tex
           git commit -m "CI: update Resume & CV at $(date -u)" || echo "No changes to commit"
           git push origin master
