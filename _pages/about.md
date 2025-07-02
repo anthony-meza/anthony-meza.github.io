@@ -12,6 +12,10 @@ redirect_from:
   - /about.html
 
 ---
+
+![Latest Sea Surface Temperature at Woods Hole](/images/temperature_plot.png){: style="display: block; margin: 2em auto; max-width: 100%; border-radius: 8px;" }
+
+---
 ## About Me
 I'm a PhD candidate in the MIT-WHOI Joint Program, studying the physics of the deep ocean $$(\geq 2000 \textrm{ meters})$$ using models and observations. My research focuses on how human-driven warming affects the deep ocean and what that means for its role in storing heat and carbon. Broadly speaking, I am interested in any projects that involve combining data and models (e.g., state estimation or data assimilation) to improve our understanding of the future of Earth's climate. 
 
@@ -27,5 +31,3 @@ Almost all of the code I write for my work ends up [on my GitHub](https://github
   - MIT-WHOI Summer Math Refresher Instructor (2023 - 2024)
   - Co-organizer of the Graduate Climate Conference (2023)
 
----
-![Latest Sea Surface Temperature at Woods Hole](/images/temperature_plot.png){: style="display: block; margin: 2em auto; max-width: 100%; border-radius: 8px;" }
