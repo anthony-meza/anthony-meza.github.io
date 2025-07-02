@@ -1,0 +1,54 @@
+# .github/workflows/daily-resume-build.yml
+name: Daily Resume Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    # daily at 04:00 UTC (midnight EDT)
+    - cron: '0 4 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Pages repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          ref: master
+
+      - name: Download Resume.tex
+        run: |
+          mkdir -p paper
+          curl -L \
+            "https://raw.githubusercontent.com/anthony-meza/Meza_CV_Resume/refs/heads/main/Resume.tex?token=${{ secrets.GITHUB_TOKEN }}" \
+            -o paper/Resume.tex
+
+      - name: Download CV.tex
+        run: |
+          curl -L \
+            "https://raw.githubusercontent.com/anthony-meza/Meza_CV_Resume/refs/heads/main/CV.tex?token=${{ secrets.GITHUB_TOKEN }}" \
+            -o paper/CV.tex
+
+      - name: Compile LaTeX to PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: paper/Resume.tex
+
+      - name: Move PDF into files/
+        run: mv paper/Resume.pdf files/Resume.pdf
+
+      - name: Copy source .tex files into files/
+        run: |
+          cp paper/Resume.tex files/Resume.tex
+          cp paper/CV.tex     files/CV.tex
+
+      - name: Commit and push updated files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add files/Resume.pdf files/Resume.tex files/CV.tex
+          git commit -m "CI: update resume & CV at $(date -u)" || echo "No changes to commit"
+          git push origin master
