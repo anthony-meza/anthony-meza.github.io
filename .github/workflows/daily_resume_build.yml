@@ -45,19 +45,19 @@ jobs:
         run: |
           cd paper
           latexmk -pdf -interaction=nonstopmode Resume.tex
+          latexmk -pdf -interaction=nonstopmode CV.tex
 
       # 6) Move the PDF and sources into your files/ folder
       - name: Publish PDF & sources
         run: |
           mv paper/Resume.pdf   files/Resume.pdf
-          cp paper/Resume.tex   files/Resume.tex
-          cp paper/CV.tex       files/CV.tex
+          mv paper/CV.pdf   files/CV.pdf
 
       # 7) Commit & push only if there’s something new
       - name: Commit and push updates
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add files/Resume.pdf files/Resume.tex files/CV.tex
+          git add files/Resume.pdf files/CV.pdf
           git commit -m "CI: update Resume & CV at $(date -u)" || echo "No changes to commit"
           git push origin master
