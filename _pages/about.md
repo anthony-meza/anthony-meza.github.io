@@ -16,11 +16,12 @@ redirect_from:
 <figure style="text-align: center; margin: 2em auto;">
   <img
     src="/images/temperature_plot.png"
-    alt="Latest Sea Surface Temperature at Woods Hole"
+    alt="Latest Sea Surface Temperature in Woods Hole, MA (generated using xbuoy)"
     style="display: block; margin: 0 auto; max-width: 100%; border-radius: 8px;"
   />
   <figcaption style="font-size: 0.9em; color: #666;">
-    **Figure 1.** Latest Sea Surface Temperature at Woods Hole
+    **Figure 1.** Latest Sea Surface Temperature in Woods Hole, MA
+    (generated using <a href="https://github.com/anthony-meza/xbuoy" target="_blank" rel="noopener">xbuoy</a>)
   </figcaption>
 </figure>
 
