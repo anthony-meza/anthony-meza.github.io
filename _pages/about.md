@@ -15,7 +15,7 @@ redirect_from:
 
 <figure style="text-align: center; margin: 2em auto;">
   <img
-    src="{{ '/images/temperature_plot.png' | relative_url }}?v={{ site.time | date: '%s' }}"
+    src="{{ '/images/temperature_plot.png' | relative_url }}?v={{ site.github.build_revision }}"
     alt="Latest Sea Surface Temperature in Woods Hole, MA (generated using xbuoy)"
     style="display: block; margin: 0 auto; max-width: 100%; border-radius: 8px;"
   />
