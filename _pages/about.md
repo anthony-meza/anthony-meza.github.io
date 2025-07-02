@@ -13,7 +13,16 @@ redirect_from:
 
 ---
 
-![Latest Sea Surface Temperature at Woods Hole](/images/temperature_plot.png){: style="display: block; margin: 2em auto; max-width: 100%; border-radius: 8px;" }
+<figure style="text-align: center; margin: 2em auto;">
+  <img
+    src="/images/temperature_plot.png"
+    alt="Latest Sea Surface Temperature at Woods Hole"
+    style="display: block; margin: 0 auto; max-width: 100%; border-radius: 8px;"
+  />
+  <figcaption style="font-size: 0.9em; color: #666;">
+    **Figure 1.** Latest Sea Surface Temperature at Woods Hole
+  </figcaption>
+</figure>
 
 ## About Me
 I'm a PhD candidate in the MIT-WHOI Joint Program, studying the drivers of variability in the deep ocean $$(\geq 2000 \textrm{ meters})$$ using models and observations. In particular, I'm interested in understanding how the deep ocean changes on annual, interannual, and decadal timescales as well as testing our ability to observe that variability.
