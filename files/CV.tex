@@ -1,0 +1,299 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{\parbox[t]{\linewidth}{#1}} & #2 \\
+%       \textit{\small #3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{@{\extracolsep{\fill}}p{0.6\textwidth}r}
+%       \textbf{\parbox[t]{0.6\textwidth}{#1}} & #2 \\
+%       \textit{\small #3} & \textit{\small #4} \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{@{\extracolsep{\fill}}p{0.6\textwidth}r}
+      \textbf{\parbox[t]{0.6\textwidth}{#1}} & #2 \\
+      \small \parbox[t]{0.6\textwidth}{#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Anthony Meza} \\ \vspace{1pt}
+    \small 714-552-2396 $|$ \href{mailto:ameza@mit.edu}{\underline{ameza@mit.edu}} $|$ 
+    % \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
+    \href{https://github.com/anthony-meza}{\underline{github.com/anthony-meza}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Massachusetts Institute of Technology \&\\ Woods Hole Oceanographic Institution}{Cambridge, MA}
+      {Ph.D. in Physical Oceanography and Climate Science}{September 2021 -- Present}
+    \resumeSubheading
+      {University of California, Irvine}{Irvine, CA}
+      {B.S. in Mathematics, Concentration in Data Science}{September 2018 -- June 2021}
+    % \resumeItemListStart
+    % \resumeItem{\textit{Concentration in Data Science}}{}
+    %   \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Woods Hole Oceanographic Institution}{Sep. 2021 -- Present}
+      {Advisor: Geoffrey Gebbie}{Woods Hole, MA}
+          \resumeItemListStart
+        \resumeItem{Explored causes of deep ocean cooling using MITgcm simulations, supporting NASA efforts of global ocean modeling and data assimilation.}
+
+        \resumeItem{Analyzed 15TB+ of next-generation high-resolution coupled climate model output to understand the connections between ocean circulation and dissolved chemicals in the ocean}
+        \resumeItem{Produced written reports, posters and presentations to communicate findings to broader communities}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Woods Hole Oceanographic Institution}{Sep. 2021 -- Sep. 2023}
+      {Advisor: Hyodae Seo}{Woods Hole, MA}
+      \resumeItemListStart
+        \resumeItem{Processed and analyzed 3TB+ of high-resolution climate data and found significant connections between near-shore sea surface temperature and 
+        extreme California precipitation events}
+        \resumeItem{Developed tools to analyze big climate data using Python and Julia}
+      \resumeItemListEnd
+% -----------Multiple Positions Heading-----------
+   % \resumeSubSubheading
+   %  {Software Engineer I}{Oct 2014 - Sep 2016}
+   %  \resumeItemListStart
+   %     \resumeItem{Apache Beam}
+   %       {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+   %  \resumeItemListEnd
+   % \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Los Alamos National Laboratory}{Jun. 2021 -- Aug. 2021}
+      {Advisor: Mark Petersen}{Los Alamos, NM}
+      \resumeItemListStart
+        \resumeItem{Implemented parallel reduced-precision capabilities within the ocean component of the Energy Exascale Earth System Model}
+        \resumeItem{Found that reduced precision marginally reduced compute time (i.e. energy consumption), but at the cost of model skill}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Institute for Pure and Applied Mathematics}{Jun. 2020 -- Sep. 2020}
+      {Advisor: Thomas Merkh}{Los Angeles, CA}
+      \resumeItemListStart
+        \resumeItem{Co-developed Q-learning and Deep Q-learning algorithms to improve satellite network communication efficiency for the Aerospace Corporation}
+        \resumeItem{Empirical models were built in Python primarily using PyTorch and NetworkX}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+% %-----------PROJECTS-----------
+% \section{Side Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{xbuoy} $|$ \emph{Python, Xarray, 
+%           multiprocessing, HTML, Pandas}}{Sep. 2024 -- Present}
+%           \resumeItemListStart
+%             \resumeItem{Developed a system to query the National Data Buoy Center and aggregate  data into daily, monthly and yearly NetCDFs}
+%             \resumeItem{Python package can already be downloaded from \textit{\url{https://github.com/anthony-meza/xbuoy}}}
+%             \resumeItem{Future goals include using buoy, satellite and model data to improve coverage and projections of coastal regions}
+%           \resumeItemListEnd
+%       % \resumeProjectHeading
+%       %     {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%       %     \resumeItemListStart
+%       %       \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%       %       \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%       %       \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%       %       \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%       %     \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+\section{Publications}
+\textbf{A., Meza}, G. Gebbie, (In Prep). \textit{Wind-Driven Mid-depth Cooling in a Dynamically Consistent Ocean State Estimate}. Journal of Geophysical Research. Oceans,.
+
+\section{Presentations}
+\textbf{A. Meza}, P. Bhuyan, Z. Zheng, G. Gebbie., M. Linz, J. Wenegrat.  ``Surface to Bottom Connections in Earth's Ocean'' Tracer Mixing in Fluids Across Planetary Scales Summer School, 8–19 July 2024, Brin Mathematics Research Center, College Park, MD. \textit{Talk}.
+
+\textbf{A. Meza}, H. Seo. ``Associations Between Coastally Trapped Waves and Wintertime Precipitation in California'' Ocean Sciences Meeting, 18–23 February 2024, New Orleans, LA. \textit{Poster}.
+
+\textbf{A. Meza}, H. Seo. ``Associations Between Coastally Trapped Waves and Wintertime Precipitation in California'' Graduate Climate Conference, 1–3 November 2023, Marine Biological Laboratory, Woods Hole, MA. \textit{Poster}. 
+
+\textbf{A. Meza}, G. Gebbie. ``Drivers of subsurface Pacific cooling in ECCOv4r4'' ECCO Annual Meeting 2023, 25 January 2023, University of Washington, Seattle, WA. \textit{Virtual Talk}. 
+
+\textbf{A. Meza}, G. Gebbie. ``Drivers of mid-depth Pacific cooling trends in an ocean reanalysis'' AGU Fall Meeting 2022, 2–4 November 2023, Chicago, IL. \textit{Poster}. 
+
+\textbf{A. Meza}, G. Gebbie. ``Drivers of mid-depth Pacific cooling trends in an ocean reanalysis'' Graduate Climate Conference, 31 October 2022, University of Washington, Seattle, WA. \textit{Poster}. 
+
+{C. Tran}, \textbf{A. Meza}, H.L. Tung, H. Liu. ``A Reinforcement Learning Approach to Packet Routing on a Dynamic Network'' Joint Mathematics Meeting, 6-9 January 2021, Virtual. \textit{Virtual Talk}. 
+
+
+\section{Service and Leadership}
+AMS Committee on Climate Variability and Change. \textit{Committee Member}. Nov. 2024-Present
+
+High Performance Computing and Data Analysis Workshop. \textit{Co-organizer and instructor}. {Oct. 2024}
+
+Joint Program Applicant Support \& Knowledgebase. \textit{Graduate Application Mentor}. {Aug. 2023--Present}
+
+2023 Graduate Climate Conference. \textit{Conference Co-Organizer}. {Jan. 2023--Nov. 2023}
+
+MIT-WHOI Joint Program Summer Math Refresher. \textit{Calculus Instructor}. {July 2024}
+
+WHOI Joint Program Student Representative. \textit{Physical Oceanography Department Representative}. {2023--2024}
+
+MIT-WHOI Joint Program Summer Math Refresher. \textit{Partial Differential Equations Instructor}. {July 2023}
+
+WHOI Joint Program Student Representative. \textit{At-Large Program Representative}. {2022--2023}
+
+2022 First Generation Summit. \textit{Conference Co-Organizer}. {2022}
+
+UC Irvine Mathematics Inclusive Excellence Committee. \textit{Committee Member}. {2020-2021}
+
+\section{Awards and Honors}
+National Consortium of Graduate Degrees for Minorities in Engineers Graduate Fellowship, MIT, 2021
+
+Rose Hills Foundation Undergraduate Science \& Engineering Scholarship, UC Irvine, 2020 
+
+Rose Hills Foundation Undergraduate Science \& Engineering Scholarship, UC Irvine, 2019 
+
+Maria Rebecca and Maureen Bellettini Scholarship, UC Irvine, 2019 
+
+Southern California Edison STEM Transfer Scholarship, UC Irvine, 2019
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:}{ Python, Julia, MATLAB} \\
+     % \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools:}{ Linux/Unix, Git, Github, VS Code, Google Colab} \\
+     % \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
