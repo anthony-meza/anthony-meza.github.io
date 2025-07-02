@@ -17,11 +17,11 @@ redirect_from:
 
 ---
 ## About Me
-I'm a PhD candidate in the MIT-WHOI Joint Program, studying the physics of the deep ocean $$(\geq 2000 \textrm{ meters})$$ using models and observations. My research focuses on how human-driven warming affects the deep ocean and what that means for its role in storing heat and carbon. Broadly speaking, I am interested in any projects that involve combining data and models (e.g., state estimation or data assimilation) to improve our understanding of the future of Earth's climate. 
+I'm a PhD candidate in the MIT-WHOI Joint Program, studying the drivers of variability in the deep ocean $$(\geq 2000 \textrm{ meters})$$ using models and observations. In particular, I'm interested in understanding how the deep ocean changes on annual, interannual, and decadal timescales as well as testing our ability to observe that variability.
 
-Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine.  
+Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine. I'm interested in any projects that involve combining data and models to improve our understanding of the future of Earth's climate. 
 
-Almost all of the code I write for my work ends up [on my GitHub](https://github.com/anthony-meza) at some point, feel free to check it out and/or follow me!
+Almost all of the code I write for my work ends up [on my GitHub](https://github.com/anthony-meza) (at some point)!
 
 ## Outreach and Leadership
   - Student Member of the American Meterological Society Committee on Climate Variability and Change (2025 - Present) 
