@@ -38,7 +38,6 @@ Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the
 
 ## Summer Schools & Workshops
 - [ECCO Summer School 2025](https://ecco-summer-school.github.io/ecco-2025/), Asilomar Conference Grounds, Pacific Grove, CA, USA — May 19–30, 2025
-
 - [Tracer Mixing in Fluids Across Planetary Scales Summer School](https://brinmrc.umd.edu/sum24-tmfaps/), Brin Mathematics Research Center, University of Maryland, College Park, MD, USA — July 8–19, 2024
 
 ## Outreach and Leadership
