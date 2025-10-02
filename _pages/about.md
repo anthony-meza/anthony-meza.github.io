@@ -34,7 +34,7 @@ Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the
 - Meza, A., & Gebbie, G. (2025). Wind-driven mid-depth Pacific cooling in a dynamically consistent ocean state estimate. Journal of Geophysical Research. Oceans, 130(10), e2025JC022462. https://doi.org/10.1029/2025JC022462
 
 ## Software 
-- [SpectralCorr](https://github.com/anthony-meza/SpectralCorr.git): power-spectrum based correlation significance testing for autocorrelated time series
+- [SpectralCorr](https://github.com/anthony-meza/SpectralCorr.git): power spectrum-based correlation significance testing for autocorrelated time series
   
 ## Outreach and Leadership
   - Student Member of the American Meterological Society Committee on Climate Variability and Change (2025 - Present) 
