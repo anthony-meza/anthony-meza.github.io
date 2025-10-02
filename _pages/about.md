@@ -26,9 +26,9 @@ redirect_from:
 </figure>
 
 ## About Me
-I'm a PhD candidate in the MIT-WHOI Joint Program, studying the drivers of variability in the deep ocean $$(\geq 2000 \textrm{ meters})$$ using models and observations. Currently, I'm interested in understanding how the deep ocean changes on annual, interannual, and decadal timescales as well as testing our ability to observe said variability.
-
-Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine. I'm interested in any projects that involve combining data and models to improve our understanding of the future of Earth's climate. 
+I'm a Physical Oceanography PhD candidate in the [MIT-WHOI Joint Program](https://mit.whoi.edu/), studying how the deep  $$(\geq 2000 \textrm{ meters})$$ ocean evolves on timescales ranging from decades to centuries. My research is primarily focused on understanding how global ocean circulation has changed and will change over the 20th–21st centuries, what drives those changes, and whether they can be detected in available observations. 
+More broadly, I’m drawn to all projects that combine models and observations to advance our understanding of Earth’s climate variability and long-term change.
+Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine. 
 
 ## Publications
 - Meza, A., & Gebbie, G. (2025). Wind-driven mid-depth Pacific cooling in a dynamically consistent ocean state estimate. Journal of Geophysical Research. Oceans, 130(10), e2025JC022462. https://doi.org/10.1029/2025JC022462
