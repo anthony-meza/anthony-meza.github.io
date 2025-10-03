@@ -20,12 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@main
+          pip install --upgrade git+https://github.com/anthony-meza/xbuoy.git@website
           pip install requests nbconvert jupyter 
           pip install cmocean tqdm
 
-          wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/gebco_woho.nc
-          wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/main/examples/website_examples/get_realtime_data.ipynb
+          wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/website/examples/website_examples/gebco_woho.nc
+          wget https://raw.githubusercontent.com/anthony-meza/xbuoy/refs/heads/website/examples/website_examples/get_realtime_data.ipynb
       - name: Execute notebook
         run: |
           jupyter nbconvert --to notebook --execute get_realtime_data.ipynb --inplace
