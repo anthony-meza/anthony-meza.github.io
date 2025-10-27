@@ -41,7 +41,12 @@ jobs:
           mkdir -p paper
           cp resume/Resume.tex paper/Resume.tex
           cp resume/CV.tex     paper/CV.tex
-
+          cp resume/*.tex paper/
+          cp resume/*.sty paper/ 2>/dev/null || echo "No .sty files found"
+          cp resume/*.cls paper/ 2>/dev/null || echo "No .cls files found"
+          # Copy any other supporting files if needed
+          cp resume/*.bib paper/ 2>/dev/null || echo "No .bib files found"
+          
       # 5) Build the PDF with latexmk
       - name: Compile Resume.tex
         run: |
