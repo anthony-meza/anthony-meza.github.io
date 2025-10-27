@@ -27,6 +27,8 @@ jobs:
             texlive-latex-base \
             texlive-latex-recommended \
             texlive-latex-extra \
+            texlive-xetex \
+            texlive-fonts-recommended \
             latexmk
 
       # 3) Clone the now-public resume repo
