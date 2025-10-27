@@ -44,8 +44,8 @@ jobs:
       - name: Compile Resume.tex
         run: |
           cd paper
-          latexmk -pdf -interaction=nonstopmode Resume.tex
-          latexmk -pdf -interaction=nonstopmode CV.tex
+          latexmk -xelatex -interaction=nonstopmode Resume.tex
+          latexmk -xelatex -interaction=nonstopmode CV.tex
 
       # 6) Move the PDF and sources into your files/ folder
       - name: Publish PDF & sources
