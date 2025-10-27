@@ -28,9 +28,11 @@ redirect_from:
 ## About Me
 
 I’m a Physical Oceanography PhD candidate in the MIT–WHOI Joint Program, where I study how the deep ocean evolves over decades to centuries.
-My research is primarily focused on understanding how global ocean circulation has changed in the past and will change in the future, 
-what drives those changes, and whether they can be detected in our observations. 
-More generally, I’m drawn to all projects that combine models and observations to advance our understanding of Earth’s climate variability and long-term change.
+My research focuses on understanding how global ocean circulation has and will change over the 20th and 21st centuries, 
+the mechanisms driving those changes, and their detectability in observational records. 
+More broadly, I’m interested in all research that combining models and observations to improve our understanding of Earth’s ocean dynamics, climate variability, 
+and impacts of anthropogenic forcing.
+
 Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine. 
 
 ## Publications
