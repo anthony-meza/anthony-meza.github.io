@@ -39,7 +39,7 @@ jobs:
       - name: Gather LaTeX sources
         run: |
           mkdir -p paper
-          cp -r resume/* paper/*
+          cp -r resume/* paper/
           
       # 5) Build the PDF with latexmk
       - name: Compile Resume.tex
