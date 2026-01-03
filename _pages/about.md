@@ -27,13 +27,9 @@ redirect_from:
 
 ## About Me
 
-I’m a Physical Oceanography PhD candidate in the MIT–WHOI Joint Program, where I study how the deep ocean evolves over decades to centuries.
-My research focuses on understanding how global ocean circulation has and will change over the 20th and 21st centuries, 
-the mechanisms driving those changes, and their detectability in observational records. 
-More broadly, I’m interested in all research that combining models and observations to improve our understanding of Earth’s ocean dynamics, climate variability, 
-and impacts of anthropogenic forcing.
+I am a Physical Oceanography PhD candidate in the MIT–WHOI Joint Program. My research focuses on how global ocean circulation and its drivers influence the distribution of heat and other tracers. I am particularly interested in understanding, identifying, and quantifying variability in the abyssal circulation using numerical simulations and observational records.
 
-Before starting my PhD, I earned a B.S. in Mathematics and Data Science from the University of California, Irvine. 
+Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College and a B.S. in Mathematics from the University of California, Irvine.
 
 ## Publications
 - Meza, A., & Gebbie, G. (2025). Wind-driven mid-depth Pacific cooling in a dynamically consistent ocean state estimate. Journal of Geophysical Research. Oceans, 130(10), e2025JC022462. https://doi.org/10.1029/2025JC022462
