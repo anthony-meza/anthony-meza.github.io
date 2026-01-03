@@ -27,7 +27,7 @@ redirect_from:
 
 ## About Me
 
-I am a Physical Oceanography PhD candidate in the MIT–WHOI Joint Program. My research focuses on how global ocean circulation and its drivers influence the distribution of heat and other tracers. I am particularly interested in understanding, identifying, and quantifying variability in the abyssal circulation using numerical simulations and observational records.
+I am a Physical Oceanography PhD candidate in the MIT–WHOI Joint Program. My research focuses on how global ocean circulation and its drivers influence the distribution of heat and other tracers. I am particularly interested in understanding, identifying, and quantifyingvariability in the abyssal circulation over the modern era through numerical simulations and observations.
 
 Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College and a B.S. in Mathematics from the University of California, Irvine.
 
