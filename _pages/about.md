@@ -36,6 +36,7 @@ Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College a
 
 ## Software 
 - [autocorrstats](https://github.com/anthony-meza/autocorrstats.git): power spectrum-based correlation significance testing for autocorrelated time series
+- [xbuoy](https://github.com/anthony-meza/xbuoy): xarray interface for pulling data from the National Data Buoy Center (NDBC) 
 
 ## Summer Schools & Workshops
 - [ECCO Summer School 2025](https://ecco-summer-school.github.io/ecco-2025/), Asilomar Conference Grounds, Pacific Grove, CA, USA — May 19–30, 2025
