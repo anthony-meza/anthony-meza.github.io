@@ -35,7 +35,7 @@ Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College a
 - Meza, A., & Gebbie, G. (2025). Wind-driven mid-depth Pacific cooling in a dynamically consistent ocean state estimate. Journal of Geophysical Research. Oceans, 130(10), e2025JC022462. https://doi.org/10.1029/2025JC022462
 
 ## Software 
-- [SpectralCorr](https://github.com/anthony-meza/SpectralCorr.git): power spectrum-based correlation significance testing for autocorrelated time series
+- [autocorrstats](https://github.com/anthony-meza/autocorrstats.git): power spectrum-based correlation significance testing for autocorrelated time series
 
 ## Summer Schools & Workshops
 - [ECCO Summer School 2025](https://ecco-summer-school.github.io/ecco-2025/), Asilomar Conference Grounds, Pacific Grove, CA, USA — May 19–30, 2025
