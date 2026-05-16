@@ -27,9 +27,9 @@ author:
   avatar           : "headshot.jpeg"
   name             : "Anthony Meza"
   pronouns         : "he/him"
-  bio              : "Physical Oceanography PhD Candidate at MIT and Woods Hole Oceanographic Institution"
+  bio              : "Physical Oceanography PhD Candidate at the MIT-WHOI Joint Program"
   location         : #"Earth"
-  employer         : "Massachusetts Institute of Technology / Woods Hole Oceanographic Institution"
+  employer         : #"Massachusetts Institute of Technology / Woods Hole Oceanographic Institution"
   uri              : # URL
   email            : "ameza@mit.edu" 
 
