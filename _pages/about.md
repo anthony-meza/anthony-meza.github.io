@@ -35,7 +35,7 @@ Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College a
 - Meza, A., & Gebbie, G. (2025). Wind-driven mid-depth Pacific cooling in a dynamically consistent ocean state estimate. Journal of Geophysical Research. Oceans, 130(10), e2025JC022462. https://doi.org/10.1029/2025JC022462
 
 ## Invited Talks 
-- ["How the Ocean Redistributes Heat"]({{ "/files/AOML_Job_Presenation.pdf" | relative_url }}), Atlantic Oceanographic and Meteorological Laboratory, Virtual, May 2026.
+- ["How the Ocean Redistributes Heat"]({{ "/files/AOML_Job_Presentation.pdf" | relative_url }}), Atlantic Oceanographic and Meteorological Laboratory, Virtual, May 2026.
 
 ## Software 
 - [autocorrstats](https://github.com/anthony-meza/autocorrstats.git): power spectrum-based correlation significance testing for autocorrelated time series
