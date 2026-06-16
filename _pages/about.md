@@ -21,7 +21,7 @@ redirect_from:
   />
   <figcaption style="font-size: 0.9em; color: #666;">
     Latest Sea Surface Temperature in Woods Hole, MA
-    (generated using <a href="https://github.com/anthony-meza/xbuoy" target="_blank" rel="noopener">xbuoy</a>)
+    (generated using <a href="https://github.com/anthony-meza/xndbc" target="_blank" rel="noopener">xndbc</a>)
   </figcaption>
 </figure>
 
@@ -36,15 +36,16 @@ Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College a
 
 ## Software 
 - [autocorrstats](https://github.com/anthony-meza/autocorrstats.git): power spectrum-based correlation significance testing for autocorrelated time series
-- [xbuoy](https://github.com/anthony-meza/xbuoy): xarray interface for pulling data from the National Data Buoy Center (NDBC) 
+- [xndbc](https://github.com/anthony-meza/xndbc): (in development) xarray-based interface for pulling data from the National Data Buoy Center (NDBC)
+- [xharmonics](https://github.com/anthony-meza/xharmonics): (in development) xarray toolkit for estimating harmonics from geospatial data 
 
 ## Summer Schools & Workshops
 - [ECCO Summer School 2025](https://ecco-summer-school.github.io/ecco-2025/), Asilomar Conference Grounds, Pacific Grove, CA, USA — May 19–30, 2025
 - [Tracer Mixing in Fluids Across Planetary Scales Summer School](https://brinmrc.umd.edu/sum24-tmfaps/), Brin Mathematics Research Center, University of Maryland, College Park, MD, USA — July 8–19, 2024
 
 ## Outreach and Leadership
-  - Student Member of the American Meterological Society Committee on Climate Variability and Change (2025 - Present) 
-  - Co-organizer of High Performance Data Analysis In Oceanography Workshop (2024, [workshop repository can be found here](https://github.com/anthony-meza/WHOI-PO-HPC)) 
+  - Student Member of the American Meteorological Society Committee on Climate Variability and Change (2025 - Present) 
+  - Co-organizer of High Performance Data Analysis in Physical Oceanography Workshop (2024, [workshop repository can be found here](https://github.com/anthony-meza/WHOI-PO-HPC)) 
   - JP ASK Graduate Application Mentor (2021 - Present)
   - MIT-WHOI Joint Program Student Representative and Vice President (2022 - 2024)
   - MIT-WHOI Summer Math Refresher Instructor (2023 - 2024)
