@@ -40,7 +40,7 @@ Before starting my PhD, I earned an A.S. in Mathematics from Fullerton College a
 ## Software 
 - [autocorrstats](https://github.com/anthony-meza/autocorrstats.git): power spectrum-based correlation significance testing for autocorrelated time series
 - [xndbc](https://github.com/anthony-meza/xndbc): (in development) xarray-based interface for pulling data from the National Data Buoy Center (NDBC)
-- [xharmonics](https://github.com/anthony-meza/xharmonics): (in development) xarray toolkit for estimating harmonics from geospatial data 
+- [xharmonics](https://github.com/anthony-meza/xharmonics): (in development) xarray toolkit for harmonic analysis of ocean and climate datasets
 
 ## Summer Schools & Workshops
 - [ECCO Summer School 2025](https://ecco-summer-school.github.io/ecco-2025/), Asilomar Conference Grounds, Pacific Grove, CA, USA — May 19–30, 2025
